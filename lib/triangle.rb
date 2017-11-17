@@ -1,5 +1,3 @@
-require 'pry'
-
 class Triangle
 
   def initialize(a, b, c)
@@ -32,5 +30,3 @@ class TriangleError < StandardError
     "This is a custom error about triangles."
   end
 end
-# triangle = Triangle.new(0, 0, 0)
-# binding.pry
